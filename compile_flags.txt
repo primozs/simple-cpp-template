@@ -5,4 +5,5 @@
 -Wshadow
 -Wconversion
 -Wpedantic
+-Werror=type-limits
 -fsanitize=undefined,address

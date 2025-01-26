@@ -1,6 +1,6 @@
 
 CC = g++
-CFLAGS = -std=c++20 -Wall -Wextra -Wfloat-equal -Wshadow -Wconversion -Wpedantic -fsanitize=undefined,address
+CFLAGS = -std=c++20 -Wall -Wextra -Wfloat-equal -Wshadow -Wconversion -Wpedantic -Werror=type-limits -fsanitize=undefined,address
 
 .PHONY: all
 all: ./bin/program
